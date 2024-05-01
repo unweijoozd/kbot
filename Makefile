@@ -1,5 +1,5 @@
 APP=$(shell basename $(shell git remote get-url origin))
-REGISTRY=unweijoozd
+REGISTRY := ghcr.io/unweijoozd
 VERSION=$(shell git describe --tags --abbrev=0 2>/dev/null || echo 'v0.0.0')-$(shell git rev-parse --short HEAD | sed 's/^-//')
 TARGETOS=linux
 TARGETARCH=arm64
