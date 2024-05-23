@@ -6,7 +6,7 @@ replicaCount: 1
 image:
   repository: unweijoozd
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.0.2-e1d0c4f"
+  tag: "v1.0.2-1f0e477"
   arch: "amd64"
   os: "linux"
 secret:
